@@ -1,0 +1,218 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    /* display: grid; */
+    /* grid-template-columns: 1fr; */
+}
+
+
+/* home */
+
+.home {
+    display: flex;
+    flex-direction: column;
+    width: 1347px;
+    margin-left: 96px;
+    margin-top: 66px;
+    z-index: 2;
+    padding: 0px 40px 0px 20px;
+    padding-bottom: 440px;
+    position: relative;
+}
+
+
+/* main_scroll */
+
+.main_scroll {
+    width: 1324px;
+    position: relative;
+}
+
+
+/* home_wrapper */
+
+
+/* khoahocpro */
+
+.home_wrapper {
+    margin-top: 50px;
+    padding: 0 44px 74px;
+    width: 1324px;
+    height: 2473px;
+}
+
+.khoahocpro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.khoahocpro .tittle {
+    display: flex;
+    align-items: baseline;
+    align-items: center;
+    height: 63px;
+}
+
+.tittle a {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 900;
+    color: black;
+}
+
+.cm_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 315px;
+    padding-right: 12px;
+    margin-bottom: 32px;
+
+    position: relative;
+}
+
+.cm_wrapper img {
+    width: 291px;
+    height: 164px;
+    border-radius: 10px;
+}
+
+.cm_wrapper a {
+    text-decoration: none;
+    margin: 7px 0 7px;
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+}
+
+.span {
+    display: flex;
+    align-items: center;
+}
+
+.span #price {
+    font-size: 14px;
+    margin-right: 8px;
+    text-decoration: line-through;
+}
+
+.span #price_true {
+    color: #f05123;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.studier #strong {
+    color: #82919b;
+    font-size: 14px;
+    margin-bottom: 0;
+    margin-top: 14px;
+}
+
+/* khóa học miễn phí */
+.khoahocmienphi .tittle {
+    display: flex;
+    align-items: baseline;
+    align-items: center;
+    height: 63px;
+}
+
+.khoahocmienphi {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.span #price_true1 {
+    color: #757575;
+    font-size: 14px;
+}
+
+
+/* bai viet noi bat */
+.baivietnoibai {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.baivietnoibai .tittle {
+    display: flex;
+    align-items: baseline;
+    align-items: center;
+    height: 63px;
+}
+
+.main2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.span1 #icon {
+    font-size: 20.88px;
+}
+
+.span1 #name {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 5px;
+}
+
+.span1 #time {
+    font-size: 14px;
+    color: #757575;
+    margin: 0px 24px 0 8px;
+}
+
+.span1 {
+    display: flex;
+    height: 16.1px;
+}
+
+
+
+/*hiệu ứng hover  */
+.link_khoa_hoc {
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.cm_wrapper .span_xkh {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    display: none;
+}
+.link_khoa_hoc:hover img {
+    opacity: .5;
+}
+.link_khoa_hoc:hover .span_xkh{
+    display: flex;
+}

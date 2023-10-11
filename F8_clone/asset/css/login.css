@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    /* width: 1480px; */
+    position: relative;
+    z-index: 2;
+}
+
+.login {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.47);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+    /* display: none; */
+}
+
+.col-md-8 {
+    background-color: #fff;
+    width: 540px !important;
+    height: 600px;
+    padding: 20px 16px;
+    border-radius: 10px;
+    border: 3px solid #d37b40;
+    position: relative;
+    overflow: hidden;
+}
+.cancel button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px !important;
+    margin-top: 0 !important;
+    border: 1px solid black;
+}
+
+
+/* tittle_login */
+
+.tittle_login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tittle_login h1 {
+    font-size: 28px;
+    margin-left: 8px;
+    font-weight: bold;
+    color: #d66126;
+}
+
+.text-center {
+    margin-top: 10px;
+    background-color: #d37b40;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #fff;
+    border: 3px solid #d37b40;
+}
+.form{
+    border: 3px solid #d37b40;
+    border-radius: 10px;
+}
+.tittle_login img {
+    border-radius: 10px;
+    width: 70px;
+    height: 70px;
+}
+
+.form-group {
+    margin: 20px 0;
+}
+.form-group label {
+    margin: 10px 0;
+    font-size: 20px !important;
+    font-weight: bold;
+}
+.form-group .form-check-label {
+    margin-left: 10px;
+}
+.icon-group{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.icon-input{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.icon-input ion-icon{
+    font-size: 37px;
+}
+.form-control{
+    border: none !important;
+    width: 300px!important;
+    background-color: none !important;
+}
+
+.col-md-8 button{
+    width: 100px ;
+    background-color: #d37b40 !important;
+    margin-left: 203px;
+    font-weight: bold;
+    margin-top: 10px;
+    border: unset;
+}
+.form-group input {
+    outline: unset;
+    border: unset;
+}

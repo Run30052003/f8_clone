@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>thuydung cute</title>
+    <link class="tittle" rel="icon" href="./asset/images/Shokono_1x1.jpg">
+    <!-- html -->
+    <link rel="stylesheet" href="login.html">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./asset/css/home.css">
+    <link rel="stylesheet" href="./asset/css/header.css">
+    <link rel="stylesheet" href="asset/css/slidebar_wrapp.css">
+    <link rel="stylesheet" href="asset/css/footer.css">
+    <link rel="stylesheet" href="asset/css/slide.css">
+    <link rel="stylesheet" href="asset/css/login.css">
+    <link rel="stylesheet" href="asset/css/ways.css">
+    <!-- bootrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="header">
+        <div class="header_left">
+            <a href=""><img src="asset/images/f8_logo.png" alt=""></a>
+            <h4>Học Lập Trình Để Đi Làm </h4>
+        </div>
+        <div class="header_middle">
+            <div class="boder_search">
+                <ion-icon name="search-outline"></ion-icon>
+                <input type="text" name="" id="" placeholder="tìm kiếm khóa học , bài viết , video ,....">
+            </div>
+        </div>
+        <div class="header_right">
+            <a href="" id="dangnhap"><button>Đăng nhập </button></a>
+        </div>
+
+    </div>
+    <div class="login" id="login">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="cancel">
+                    <button id="cancel"><ion-icon name="close-outline"></ion-icon></button>
+                </div>
+                <div class="tittle_login">
+                    <img src="asset/images/f8_logo.png" alt="">
+                    <h1>Chào mừng bạn đến với F8</h1>
+                </div>
+                <h1 class="text-center">Login</h1>
+                    <form class="form" action="">
+                        <div class="form-group">
+                            <label for="username">Username</label>
+                            <div class="icon-input">
+                                <ion-icon name="person-circle-outline"></ion-icon>
+                                <input class="login--username" placeholder="Tên đăng nhập" type="text" class="form-control" name="username" id="username">
+                            </div>
+                        </div>
+    
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <div class="icon-input">
+                                <ion-icon name="key-outline"></ion-icon>
+                                <input class="login--password" placeholder="Mật khẩu" type="password" class="form-control" name="password" id="password">
+                            </div>
+                        </div>
+    
+                        <div class="form-group">
+                            <input type="checkbox" class="form-check-label" name="Remenber-me" id="Remenber-me">
+                            <label for="Remenber-me" class="form-check-label">Remember me</label>
+                        </div>
+                    </form>
+                    <button id="submit_btn" name="btn-login" class="btn btn-primary btn-block">Submit</button>
+            </div>
+        </div>
+    </div>
+    <!-- slide_bar_wrap là thanh dọc nằm bên trái  -->
+
+    <div id="slide_bar_wrap">
+        <div class="slidebar_wrapper">
+            <div class="creat_button">
+                <ion-icon name="radio-button-on-outline"></ion-icon>
+            </div>
+            <a href="">
+                <ion-icon name="home-outline"></ion-icon><span>Trang chủ</span></a>
+            <a id="open_ways" >
+                <ion-icon name="subway-outline"></ion-icon><span>Lộ Trình</span></a>
+            <a id="open_way">
+                <ion-icon name="walk-outline"></ion-icon><span>Bài viết </span></a>
+        </div>
+    </div>
+    <div class="ways">
+        <div class="tittle_ways">
+            <h1>Lộ trình học</h1>
+            <p>Để bắt đầu một cách thuận lợi, bạn nên tập trung vào một lộ trình học. Ví dụ: Để đi làm với vị trí "Lập trình viên Front-end" bạn nên tập trung vào lộ trình "Front-end".</p>
+        </div>
+
+
+        <div class="content">
+                <div class="content_small">
+                    <a class="a_content_small" href="">Lộ trình học Front-end</a>
+                    <p>Lập trình viên Front-end là người xây dựng ra giao diện websites. Trong phần này F8 sẽ chia sẻ cho bạn lộ trình để trở thành lập trình viên Front-end nhé.</p>
+                    <a href=""><button>xem chi tiết</button></a>
+                </div>
+                <a href=""><img src="https://files.fullstack.edu.vn/f8-prod/learning-paths/2/63b4642136f3e.png" alt=""></a>
+        </div>
+
+        <div class="content">
+                <div class="content_small">
+                    <a class="a_content_small" href="">Lộ trình học Back-end</a>
+                    <p>Trái với Front-end thì lập trình viên Back-end là người làm việc với dữ liệu, công việc thường nặng tính logic hơn. Chúng ta sẽ cùng tìm hiểu thêm về lộ trình học Back-end nhé.</p>
+                    <a href=""><button>xem chi tiết</button></a>
+                </div>
+                <a href=""><img src="https://files.fullstack.edu.vn/f8-prod/learning-paths/3/63b4641535b16.png" alt=""></a>
+        </div>
+
+
+        <div class="suggestion_box">
+            <div class="content_suggestion_box">
+                <h2>Tham gia cộng đồng học viên F8 trên Facebook</h2>
+                <p>Hàng nghìn người khác đang học lộ trình giống như bạn. Hãy tham gia hỏi đáp, chia sẻ và hỗ trợ nhau trong quá trình học nhé.</p>
+                <a class="nut"><button>Tham gia nhóm</button></a>
+            </div>
+            <div class="images">
+                <a href=""><img src="	https://fullstack.edu.vn/static/media/fb-group-cards.4bd525b1b8baf7b1e5a2.png" alt=""></a>
+                <a href=""><img src="	https://fullstack.edu.vn/static/media/fb-group-cards.4bd525b1b8baf7b1e5a2.png" alt=""></a>
+                <a href=""><img src="	https://fullstack.edu.vn/static/media/fb-group-cards.4bd525b1b8baf7b1e5a2.png" alt=""></a>
+                <a href=""><img src="	https://fullstack.edu.vn/static/media/fb-group-cards.4bd525b1b8baf7b1e5a2.png" alt=""></a>
+            </div>
+        </div>
+        <button class="back" id="back"> Trở lại </button>
+    </div>
+   
+    <div class="html_css">
+        <div class="tittle_ways">
+            <h1>Khóa học HTML CSS </h1>
+            <p>Thùy dung cute</p>
+        </div>
+
+
+        <div class="content">
+                <div class="content_small">
+                    <a class="a_content_small" href="">Lộ trình học Front-end</a>
+                    <p>Lập trình viên Front-end là người xây dựng ra giao diện websites. Trong phần này F8 sẽ chia sẻ cho bạn lộ trình để trở thành lập trình viên Front-end nhé.</p>
+                    <a href=""><button>xem chi tiết</button></a>
+                </div>
+                <a href=""><img src="https://files.fullstack.edu.vn/f8-prod/learning-paths/2/63b4642136f3e.png" alt=""></a>
+        </div>
+
+        <div class="content">
+                <div class="content_small">
+                    <a class="a_content_small" href="">Lộ trình học Back-end</a>
+                    <p>Trái với Front-end thì lập trình viên Back-end là người làm việc với dữ liệu, công việc thường nặng tính logic hơn. Chúng ta sẽ cùng tìm hiểu thêm về lộ trình học Back-end nhé.</p>
+                    <a href=""><button>xem chi tiết</button></a>
+                </div>
+                <a href=""><img src="https://files.fullstack.edu.vn/f8-prod/learning-paths/3/63b4641535b16.png" alt=""></a>
+        </div>
+
+
+        <div class="suggestion_box">
+            <div class="content_suggestion_box">
+                <h2>Tham gia cộng đồng học viên F8 trên Facebook</h2>
+                <p>Hàng nghìn người khác đang học lộ trình giống như bạn. Hãy tham gia hỏi đáp, chia sẻ và hỗ trợ nhau trong quá trình học nhé.</p>
+                <a class="nut"><button>Tham gia nhóm</button></a>
+            </div>
+            <div class="images">
+                <a href=""><img src="	https://fullstack.edu.vn/static/media/fb-group-cards.4bd525b1b8baf7b1e5a2.png" alt=""></a>
+                <a href=""><img src="	https://fullstack.edu.vn/static/media/fb-group-cards.4bd525b1b8baf7b1e5a2.png" alt=""></a>
+                <a href=""><img src="	https://fullstack.edu.vn/static/media/fb-group-cards.4bd525b1b8baf7b1e5a2.png" alt=""></a>
+                <a href=""><img src="	https://fullstack.edu.vn/static/media/fb-group-cards.4bd525b1b8baf7b1e5a2.png" alt=""></a>
+            </div>
+        </div>
+        <button class="back" id="back"> Trở lại </button>
+    </div>
+
+
+    <!-- home chứa main scroll , -->
+    <div class="home">
+        <!-- main scroll chứa slider và phần thân khóa học -->
+        <div class="main_scroll">
+
+            <!-- slider -->
+            <div class="slider">
+                <!-- list item -->
+                <div class="list">
+                    <div class="item">
+                        <img src="https://files.fullstack.edu.vn/f8-prod/banners/Banner_03_youtube.png" alt="">
+                        <img src="https://files.fullstack.edu.vn/f8-prod/banners/Banner_03_youtube.png" alt="">
+                    </div>
+
+                    <div class="item">
+                        <img src="	https://files.fullstack.edu.vn/f8-prod/banners/Banner_04_2.png" alt="">
+                        <img src="	https://files.fullstack.edu.vn/f8-prod/banners/Banner_04_2.png" alt="">
+
+                    </div>
+
+                    <div class="item">
+                        <img src="https://files.fullstack.edu.vn/f8-prod/banners/20/6308a6bf603a4.png" alt="">
+                        <img src="https://files.fullstack.edu.vn/f8-prod/banners/20/6308a6bf603a4.png" alt="">
+
+                    </div>
+
+                    <div class="item">
+                        <img src="	https://files.fullstack.edu.vn/f8-prod/banners/Banner_01_2.png" alt="">
+                        <img src="	https://files.fullstack.edu.vn/f8-prod/banners/Banner_01_2.png" alt="">
+
+                    </div>
+
+                    <div class="item">
+                        <img src="https://files.fullstack.edu.vn/f8-prod/banners/Banner_web_ReactJS.png" alt="">
+                        <img src="https://files.fullstack.edu.vn/f8-prod/banners/Banner_web_ReactJS.png" alt="">
+
+                    </div>
+
+                </div>
+                <!-- button prev next-->
+                <div class="button">
+                    <button id="prev"><</button>
+                    <button id="next">></button>
+                </div>
+
+
+            </div>
+            <!-- dots -->
+            <ul class="dots">
+                <li class="active"></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <!-- home_wrapper chứa hết phần thân khóa học trừ slider -->
+            <div class="home_wrapper">
+                <div class="khoahocpro">
+                    <div class="tittle">
+                        <a href=""><span>Khóa Học Pro</span></a>
+                    </div>
+                    <div class="main">
+                        <div class="cm_wrapper">
+                            <a id="khoahoc_pro" class="link_khoa_hoc">
+                                <img src="https://files.fullstack.edu.vn/f8-prod/courses/15/62f13d2424a47.png" alt="   ">
+                                <span class="span_xkh" >Xem khóa học</span>
+                            </a>
+                            <a href="">HTML CSS Pro</a>
+                            <div class="span">
+                                <span id="price">2.500.000đ</span>
+                                <span id="price_true">1.299.000đ</span>
+                            </div>
+                        </div>
+                        <div class="cm_wrapper">
+                            <a href="" class="link_khoa_hoc">
+                                <img src="	https://files.fullstack.edu.vn/f8-prod/courses/27/64e184ee5d7a2.png" alt="   ">
+                                <span class="span_xkh" >Xem khóa học</span>
+                            </a>
+                            <a href="">Ngôn Ngữ Tiền Xử Lý SASS</a>
+                            <div class="span">
+                                <span id="price">2.500.000đ</span>
+                                <span id="price_true">1.299.000đ</span>
+                            </div>
+                        </div>
+                        <div class="cm_wrapper">
+                            <a href="" class="link_khoa_hoc">
+                                <img src="	https://files.fullstack.edu.vn/f8-prod/courses/19/62f13cb607b4b.png" alt="   ">
+                                <span class="span_xkh" >Xem khóa học</span>
+                            </a>
+                            <a href="">JavaScript Pro</a>
+                            <div class="span">
+                                <span id="price"></span>
+                                <span id="price_true">$</span>
+                            </div>
+                        </div>
+                        <div class="cm_wrapper">
+                            <a href="" class="link_khoa_hoc">
+                                <img src="	https://files.fullstack.edu.vn/f8-prod/courses/20/648020fc16597.png" alt="   ">
+                                <span class="span_xkh" >Xem khóa học</span>
+                            </a>
+                            <a href="">NextJS Pro</a>
+                            <div class="span">
+                                <span id="price"></span>
+                                <span id="price_true">$</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="studier">
+                    <strong id="strong">355.568+ người khác đã học</strong>
+                </div>
+                <div class="khoahocmienphi">
+                    <div class="tittle">
+                        <a href=""><span>Khóa Học Miễn Phí</span></a>
+                    </div>
+                    <div class="main1">
+                        <div class="cm_wrapper">
+                            <a class="link_khoa_hoc" href="">
+                                <img src="	https://files.fullstack.edu.vn/f8-prod/courses/7.png" alt="   ">
+                                <span class="span_xkh" >Xem khóa học</span>
+                            </a>
+                            <a href="">Kiến Thức Nhập Môn IT</a>
+                            <div class="span">
+                                <span id="price"><ion-icon name="people-outline"></ion-icon></span>
+                                <span id="price_true1">774.453</span>
+                            </div>
+
+                        </div>
+
+
+                        <div class="cm_wrapper">
+                            <a href="" class="link_khoa_hoc">
+                                <img src="	https://files.fullstack.edu.vn/f8-prod/courses/3.png" alt="   ">
+                                <span class="span_xkh" >Xem khóa học</span>
+                            </a>
+                            <a href="">Responsive với Grid system</a>
+                            <div class="span">
+                                <span id="price"><ion-icon name="people-outline"></ion-icon></span>
+                                <span id="price_true1">774.453</span>
+                            </div>
+                        </div>
+                        <div class="cm_wrapper">
+                            <a href=""class="link_khoa_hoc">
+                                <img src="		https://files.fullstack.edu.vn/f8-prod/courses/21/63e1bcbaed1dd.png
+                                " alt="   ">
+                                <span class="span_xkh" >Xem khóa học</span>
+                            </a>
+                            <a href="">Lập trình C++ cơ bản , nâng cao </a>
+                            <div class="span">
+                                <span id="price"><ion-icon name="people-outline"></ion-icon></span>
+                                <span id="price_true1">774.453</span>
+                            </div>
+                        </div>
+                        <div class="cm_wrapper">
+                            <a href="" class="link_khoa_hoc">
+                                <img src="https://files.fullstack.edu.vn/f8-prod/courses/2.png" alt="   ">
+                                <span class="span_xkh" >Xem khóa học</span>
+                            </a>
+                            <a href="">HTML CSS từ zero đến hero</a>
+                            <div class="span">
+                                <span id="price"><ion-icon name="people-outline"></ion-icon></span>
+                                <span id="price_true1">774.453</span>
+                            </div>
+                        </div>
+                        <div class="cm_wrapper">
+                            <a href="" class="link_khoa_hoc">
+                                <img src="	https://files.fullstack.edu.vn/f8-prod/courses/1.png
+                                " alt="   ">
+                                <span class="span_xkh" >Xem khóa học</span>
+                            </a>
+                            <a href=""> Lập Trình Javascript cơ bản </a>
+                            <div class="span">
+                                <span id="price"><ion-icon name="people-outline"></ion-icon></span>
+                                <span id="price_true1">774.453</span>
+                            </div>
+                        </div>
+                        <div class="cm_wrapper">
+                            <a href="" class="link_khoa_hoc">
+                                <img src="	https://files.fullstack.edu.vn/f8-prod/courses/12.png" alt="   ">
+                                <span class="span_xkh" >Xem khóa học</span>
+                            </a>
+                            <a href="">Lập Trình Javascript nâng cao </a>
+                            <div class="span">
+                                <span id="price"><ion-icon name="people-outline"></ion-icon></span>
+                                <span id="price_true1">774.453</span>
+                            </div>
+                        </div>
+                        <div class="cm_wrapper">
+                            <a href="" class="link_khoa_hoc">
+                                <img src="	https://files.fullstack.edu.vn/f8-prod/courses/14/624faac11d109.png" alt="   ">
+                                <span class="span_xkh" >Xem khóa học</span>
+                            </a>
+                            <a href="">Làm việc với Terminal & Ubuntu</a>
+                            <div class="span">
+                                <span id="price"><ion-icon name="people-outline"></ion-icon></span>
+                                <span id="price_true1">774.453</span>
+                            </div>
+                        </div>
+                        <div class="cm_wrapper">
+                            <a href="" class="link_khoa_hoc">
+                                <img src="	https://files.fullstack.edu.vn/f8-prod/courses/13/13.png
+                                " alt="   ">
+                                <span class="span_xkh" >Xem khóa học</span>
+                            </a>
+                            <a href="">Xây Dựng Website với ReactJS</a>
+                            <div class="span">
+                                <span id="price"><ion-icon name="people-outline"></ion-icon></span>
+                                <span id="price_true1">774.453</span>
+                            </div>
+                        </div>
+                        <div class="cm_wrapper">
+                            <a href="" class="link_khoa_hoc">
+                                <img src="https://files.fullstack.edu.vn/f8-prod/courses/6.png" alt="   ">
+                                <span class="span_xkh" >Xem khóa học</span>
+                            </a>
+                            <a href="">Node & ExpressJS</a>
+                            <div class="span">
+                                <span id="price"><ion-icon name="people-outline"></ion-icon></span>
+                                <span id="price_true1">774.453</span>
+                            </div>
+                        </div>
+                        <div class="cm_wrapper">
+                            <a href="" class="link_khoa_hoc">
+                                <img src="	https://files.fullstack.edu.vn/f8-prod/courses/4/61a9e9e701506.png
+                                " alt="   ">
+                                <span class="span_xkh" >Xem khóa học</span>
+                            </a>
+                            <a href="">App "Đừng Chạm Tay Lên Mặt"</a>
+                            <div class="span">
+                                <span id="price"><ion-icon name="people-outline"></ion-icon></span>
+                                <span id="price_true1">774.453</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="baivietnoibat">
+                    <div class="tittle">
+                        <a href=""><span>Bài Viết Nổi Bật </span></a>
+                    </div>
+                    <div class="main2">
+                        <div class="cm_wrapper">
+                            <a href="" class="link_khoa_hoc">
+                                <img src="https://files.fullstack.edu.vn/f8-prod/blog_posts/279/6153f692d366e.jpg" alt="   ">
+                                <span class="span_xkh" >Xem khóa học</span>
+                            </a>
+                            <a href="">[Phần 1] Tạo dự án ReactJS với Webpack</a>
+                            <div class="span1">
+                                <span id="icon"><ion-icon name="logo-github"></ion-icon></span>
+                                <span id="name">Thùy Dung</span>
+                                <span id="time">6 phút đọc </span>
+
+                            </div>
+                        </div>
+                        <div class="cm_wrapper">
+                            <a href="" class="link_khoa_hoc">
+                                <img src="	https://files.fullstack.edu.vn/f8-prod/blog_posts/65/6139fe28a9844.png" alt="   ">
+                                <span class="span_xkh" >Xem khóa học</span>
+                            </a>
+                            <a href="">Sản Phẩm của F8 ạ!!!</a>
+                            <div class="span1">
+                                <span id="icon"><ion-icon name="logo-github"></ion-icon></span>
+                                <span id="name">Thùy Dung</span>
+                                <span id="time">6 phút đọc </span>
+
+                            </div>
+                        </div>
+                        <div class="cm_wrapper">
+                            <a href="" class="link_khoa_hoc">
+                                <img src="	https://files.fullstack.edu.vn/f8-prod/blog_posts/677/615436b218d0a.png" alt="   ">
+                                <span class="span_xkh" >Xem khóa học</span>
+                            </a>
+                            <a href="">Cách đưa code lên GitHub </a>
+                            <div class="span1">
+                                <span id="icon"><ion-icon name="logo-github"></ion-icon></span>
+                                <span id="name">Thùy Dung</span>
+                                <span id="time">6 phút đọc </span>
+
+                            </div>
+                        </div>
+                        <div class="cm_wrapper">
+                            <a href="" class="link_khoa_hoc">
+                                <img src="https://files.fullstack.edu.vn/f8-prod/blog_posts/51/6139c6453456e.png
+                                " alt="   ">
+                                <span class="span_xkh" >Xem khóa học</span>
+                            </a>
+                            <a href="">Ký sự ngày thứ 25 học ở F8 </a>
+                            <div class="span1">
+                                <span id="icon"><ion-icon name="logo-github"></ion-icon></span>
+                                <span id="name">Thùy Dung</span>
+                                <span id="time">6 phút đọc </span>
+
+                            </div>
+                        </div>
+                        <div class="cm_wrapper">
+                            <a href="" class="link_khoa_hoc">
+                                <img src="https://files.fullstack.edu.vn/f8-prod/blog_posts/107/613a1f3685814.png" alt="   ">
+                                <span class="span_xkh" >Xem khóa học</span>
+                            </a>
+                            <a href="">Các nguồn tài nguyên hữu ích dev</a>
+                            <div class="span1">
+                                <span id="icon"><ion-icon name="logo-github"></ion-icon></span>
+                                <span id="name">Thùy Dung</span>
+                                <span id="time">6 phút đọc </span>
+
+                            </div>
+                        </div>
+                        <div class="cm_wrapper">
+                            <a href="" class="link_khoa_hoc">
+                                <img src="	https://files.fullstack.edu.vn/f8-prod/blog_posts/1671/61b6368983c16.jpg
+                                " alt="   ">
+                                <span class="span_xkh" >Xem khóa học</span>
+                            </a>
+                            <a href="">Thời gian và Động lực</a>
+                            <div class="span1">
+                                <span id="icon"><ion-icon name="logo-github"></ion-icon></span>
+                                <span id="name">Thùy Dung</span>
+                                <span id="time">6 phút đọc </span>
+
+                            </div>
+                        </div>
+                        <div class="cm_wrapper">
+                            <a href="" class="link_khoa_hoc">
+                                <img src="	https://files.fullstack.edu.vn/f8-prod/blog_posts/273/614043e523ad9.png
+                                " alt="   ">
+                                <span class="span_xkh" >Xem khóa học</span>
+                            </a>
+                            <a href="">Tổng hợp tài liệu tiếng anh.</a>
+                            <div class="span1">
+                                <span id="icon"><ion-icon name="logo-github"></ion-icon></span>
+                                <span id="name">Thùy Dung</span>
+                                <span id="time">6 phút đọc </span>
+
+                            </div>
+                        </div>
+                        <div class="cm_wrapper">
+                            <a href="" class="link_khoa_hoc">
+                                <img src="https://files.fullstack.edu.vn/f8-prod/blog_posts/791/615de64de7e8f.jpg" alt="   ">
+                                <span class="span_xkh" >Xem khóa học</span>
+                            </a>
+                            <a href="">Học như thế nào là phù hợp ?</a>
+                            <div class="span1">
+                                <span id="icon"><ion-icon name="logo-github"></ion-icon></span>
+                                <span id="name">Thùy Dung</span>
+                                <span id="time">6 phút đọc </span>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="baivietnoibat">
+                    <div class="tittle">
+                        <a href=""><span>Video Nổi Bật  </span></a>
+                    </div>
+                    <div class="main2">
+                         <div class="cm_wrapper">
+                            <a href="" class="link_khoa_hoc">
+                                <img src="	https://i.ytimg.com/vi/oF7isq9IjZM/maxresdefault.jpg" alt="   ">
+                                <span class="span_xkh" >Xem khóa học</span>
+                            </a>
+                            <a href="">Kiếm Thật Nhiều Tiền </a>
+                            <div class="span1">
+                                <span id="icon"><ion-icon name="eye-outline"></ion-icon></span>
+                                <span id="time">123.567</span>
+                                <span id="icon"><ion-icon name="heart-circle-outline"></ion-icon></span>
+                                <span id="time">3.434</span>
+                                <span id="icon"><ion-icon name="chatbubble-outline"></ion-icon></span>
+                                <span id="time">243</span>
+
+                            </div>
+                        </div>
+                        <div class="cm_wrapper">
+                            <a href="" class="link_khoa_hoc">
+                                <img src="https://i.ytimg.com/vi/YH-E4Y3EaT4/maxresdefault.jpg
+                                " alt="   ">
+                                <span class="span_xkh" >Xem khóa học</span>
+                            </a>
+                            <a href="">Sinh viên IT cần biết những gì?</a>
+                            <div class="span1">
+                                <span id="icon"><ion-icon name="eye-outline"></ion-icon></span>
+                                <span id="time">123.567</span>
+                                <span id="icon"><ion-icon name="heart-circle-outline"></ion-icon></span>
+                                <span id="time">3.434</span>
+                                <span id="icon"><ion-icon name="chatbubble-outline"></ion-icon></span>
+                                <span id="time">243</span>
+
+                            </div>
+                        </div>
+                        <div class="cm_wrapper">
+                            <a href="" class="link_khoa_hoc">
+                                <img src="https://i.ytimg.com/vi/DpvYHLUiZpc/maxresdefault.jpg" alt="   ">
+                                <span class="span_xkh" >Xem khóa học</span>
+                            </a>
+                            <a href="">Phương pháp học lập trình</a>
+                            <div class="span1">
+                                <span id="icon"><ion-icon name="eye-outline"></ion-icon></span>
+                                <span id="time">123.567</span>
+                                <span id="icon"><ion-icon name="heart-circle-outline"></ion-icon></span>
+                                <span id="time">3.434</span>
+                                <span id="icon"><ion-icon name="chatbubble-outline"></ion-icon></span>
+                                <span id="time">243</span>
+
+                            </div>
+                        </div>
+                        <div class="cm_wrapper">
+                            <a href="" class="link_khoa_hoc">
+                                <img src="	https://i.ytimg.com/vi/R6plN3FvzFY/maxresdefault.jpg" alt="   ">
+                                <span class="span_xkh" >Xem khóa học</span>
+                            </a>
+                            <a href="">Bạn sẽ làm được gì sau khóa học? </a>
+                            <div class="span1">
+                                <span id="icon"><ion-icon name="eye-outline"></ion-icon></span>
+                                <span id="time">123.567</span>
+                                <span id="icon"><ion-icon name="heart-circle-outline"></ion-icon></span>
+                                <span id="time">3.434</span>
+                                <span id="icon"><ion-icon name="chatbubble-outline"></ion-icon></span>
+                                <span id="time">243</span>
+
+                            </div>
+                        </div>
+                        <div class="cm_wrapper">
+                            <a href="" class="link_khoa_hoc">
+                                <img src="	https://i.ytimg.com/vi/0SJE9dYdpps/maxresdefault.jpg
+                                " alt="   ">
+                                <span class="span_xkh" >Xem khóa học</span>
+                            </a>
+                            <a href="">Javascript có thể làm được gì? </a>
+                            <div class="span1">
+                                <span id="icon"><ion-icon name="eye-outline"></ion-icon></span>
+                                <span id="time">123.567</span>
+                                <span id="icon"><ion-icon name="heart-circle-outline"></ion-icon></span>
+                                <span id="time">3.434</span>
+                                <span id="icon"><ion-icon name="chatbubble-outline"></ion-icon></span>
+                                <span id="time">243</span>
+
+                            </div>
+                        </div>
+                        <div class="cm_wrapper">
+                            <a href="" class="link_khoa_hoc">
+                                <img src="https://i.ytimg.com/vi/x0fSBAgBrOQ/maxresdefault.jpg" alt="   ">
+                                <span class="span_xkh" >Xem khóa học</span>
+                            </a>
+                            <a href="">ReactJS là gì? Tại sao nên học ReactJS? </a>
+                            <div class="span1">
+                                <span id="icon"><ion-icon name="eye-outline"></ion-icon></span>
+                                <span id="time">123.567</span>
+                                <span id="icon"><ion-icon name="heart-circle-outline"></ion-icon></span>
+                                <span id="time">3.434</span>
+                                <span id="icon"><ion-icon name="chatbubble-outline"></ion-icon></span>
+                                <span id="time">243</span>
+
+                            </div>
+                        </div> 
+                        <div class="cm_wrapper">
+                            <a href="" class="link_khoa_hoc">
+                                <img src="https://i.ytimg.com/vi/G19jZzK5FWI/maxresdefault.jpg" alt="   ">
+                                <span class="span_xkh" >Xem khóa học</span>
+                            </a>
+                            <a href="">Học Flexbox qua ví dụ </a>
+                            <div class="span1">
+                                <span id="icon"><ion-icon name="eye-outline"></ion-icon></span>
+                                <span id="time">123.567</span>
+                                <span id="icon"><ion-icon name="heart-circle-outline"></ion-icon></span>
+                                <span id="time">3.434</span>
+                                <span id="icon"><ion-icon name="chatbubble-outline"></ion-icon></span>
+                                <span id="time">243</span>
+
+                            </div>
+                        </div>
+                        <div class="cm_wrapper">
+                            <a href="" class="link_khoa_hoc">
+                                <img src="https://i.ytimg.com/vi/sgq7BH6WxL8/maxresdefault.jpg
+                                " alt="   ">
+                                <span class="span_xkh" >Xem khóa học</span>
+                            </a>
+                            <a href="">"Code Thiếu Nhi Battle" </a>
+                            <div class="span1">
+                                <span id="icon"><ion-icon name="eye-outline"></ion-icon></span>
+                                <span id="time">123.567</span>
+                                <span id="icon"><ion-icon name="heart-circle-outline"></ion-icon></span>
+                                <span id="time">3.434</span>
+                                <span id="icon"><ion-icon name="chatbubble-outline"></ion-icon></span>
+                                <span id="time">243</span>
+
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer_top">
+            <div class="nameclass">
+                <div class="logo">
+                    <img src="asset/images/f8_logo.png" alt="">
+                    <h2>Học Lập Trình Để Đi Làm </h2>
+                </div>
+                <div class="para">
+                    <a href="">Điện thoại: 0246.329.1102</a>
+                    <a href="">Email: contact@fullstack.edu.vn</a>
+                    <p>Số 11D, lô A10, khu đô thị Nam Trung Yên, Phường Yên Hòa, Quận Cầu Giấy, TP. Hà Nội</p>
+                </div>
+                <img src="https://fullstack.edu.vn/static/media/dmca.2593d9ecf1c982e3c3a2.png" alt="">
+            </div>
+
+            <div class="nameclass1">
+                <h2>Về F8</h2>
+                <ul>
+                    <li>
+                        <a href=""></a>Giới Thiệu </li>
+                    <li>
+                        <a href=""></a>Liên Hệ </li>
+                    <li>
+                        <a href=""></a>Bảo Mật </li>
+                    <li>
+                        <a href=""></a>Điều Khoản </li>
+                    <li>
+                        <a href=""></a>Cơ Hội Việc Làm </li>
+                </ul>
+            </div>
+
+
+            <div class="nameclass2">
+                <h2>Sản Phẩm </h2>
+                <ul>
+                    <li>
+                        <a href=""></a>Game nester </li>
+                    <li>
+                        <a href=""></a>Game CSS Diner </li>
+                    <li>
+                        <a href=""></a>Game Froggy </li>
+                    <li>
+                        <a href=""></a>Game Froggy </li>
+                    <li>
+                        <a href=""></a>Game Scoops</li>
+                </ul>
+
+            </div>
+
+            <div class="nameclass3">
+                <h2>Công Cụ </h2>
+                <ul>
+                    <li>
+                        <a href=""></a>Tạo CV</li>
+                    <li>
+                        <a href=""></a>Rút gọn liên kết </li>
+                    <li>
+                        <a href=""></a>Clip-path  </li>
+                    <li>
+                        <a href=""></a>Snippet </li>
+                    <li>
+                        <a href=""></a>CSS Grid </li>
+                    
+                </ul>
+
+            </div>
+
+            <div class="nameclass4">
+                <h2 class="nc4">Công ty giáo dục F8 </h2>
+                <ul>
+                    <li>
+                        <a href=""></a>Mã số thuế: 0109922901 </li>
+                    <li>
+                        <a href=""></a>Ngày thành lập: 04/03/2022 </li>
+                    <li>
+                        <a href=""></a>Lĩnh vực: Công nghệ, giáo dục, lập trình. F8 xây dựng và phát triển những sản phẩm mang lại giá trị cho cộng đồng. </li>
+                </ul>
+
+            </div>
+        </div>
+        <div class="footer_bottom">
+            <p>07/10/2023 F8. Nền tảng học lập trình hàng đầu Việt Nam</p>
+            <div class="icon">
+                <ion-icon name="logo-youtube"></ion-icon>
+                <ion-icon name="logo-facebook"></ion-icon>
+                <ion-icon name="logo-tiktok"></ion-icon>
+            </div>
+        </div>
+    </div>
+    <script src="asset/script/slider.js"></script>
+    <script src="asset/script/back_way.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="asset/script/login.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

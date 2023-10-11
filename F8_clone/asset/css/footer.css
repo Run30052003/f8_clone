@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* footer */
+.footer{
+    width:1513px !important;
+    background-color:#181821;
+    z-index: 99;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+}
+.footer {
+    width: 1513px;  
+    height: 440px;
+    margin-top: 100px;
+}
+/* footer::after {
+    content: "";
+    display: block;
+    height: 440px;
+  } */
+.footer{
+    padding: 68px 0px 40px 0px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    
+}
+/* footer_top */
+/* ?name_class */
+.footer_top{
+    height: 235px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.nameclass{
+    width: 281px;
+    height: 235px;
+    padding: 0 12px;
+}
+.logo img{
+    border-radius: 8px;
+    height: 38px;
+    margin-right: 10px;
+    width: 38px;
+
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.nameclass .para{
+    margin:14px 0 ;
+    color: #a9b3bb;
+}
+.nameclass .para a{
+    text-decoration: none;
+    color: #a9b3bb;
+
+}
+.nameclass .para img {
+    margin-top: 20px ;
+}
+.nameclass1{
+    width: 163px;
+    height: 235px;
+    padding: 0 13px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+}
+.nameclass2{
+    width: 163px;
+    height: 235px;
+    padding: 0 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.nameclass3{
+    width: 163px;
+    height: 235px;
+    padding: 0 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.nameclass4{
+    width: 330px;
+    height: 235px;
+    padding: 0 12px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+
+}
+h2{
+    font-size: 18px !important;
+    margin: 14px 0px;
+    color: white;
+}
+.nc4{
+    margin-left: 33px;
+}
+.footer li{
+    list-style-type: none;
+    margin-bottom: 9px;
+    color: #a9b3bb;
+}
+
+/* footer_bottom */
+.footer_bottom{
+    margin-top: 48px;
+    padding: 0 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+.footer_bottom .icon{
+    margin-left: 606px;
+    
+}
+.footer_bottom .icon ion-icon{
+    width: 28px;
+    height: 32px;
+    margin: 0 3px;
+    color: #a9b3bb;
+}
+.footer_bottom p{
+    margin-left: 50px;
+}
